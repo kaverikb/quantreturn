@@ -1,11 +1,11 @@
-# **QuantReturn: Multi-Model Time-Series Forecasting for Tech Equities**
+# QuantReturn: Multi-Model Time-Series Forecasting for Tech Equities
 
 This project performs a comparative analysis of ARIMA and LightGBM models for forecasting daily stock returns of leading technology equities (TESLA, GOOGLE, NVDIA, AMD, ORACLE). Using 10 years of OHLCV data and 100+ engineered features, the project evaluates statistical vs. machine learning forecasting approaches with a focus on out-of-sample robustness and trading relevance.
 *Full methodology and results documented in* `TSA_task.pdf`. 
 
 ---
 
-## ** Key Features**
+## Key Features
 
 * **Data Pipeline:**
 
@@ -26,7 +26,7 @@ This project performs a comparative analysis of ARIMA and LightGBM models for fo
 
 ---
 
-## ** Summary of Findings**
+## Summary of Findings
 
 * **LightGBM outperforms ARIMA** by a large margin after normalization, offering 50× lower error relative to target magnitude.
 * Lagged returns and short-term volatility dominate feature importance across all models.
@@ -35,7 +35,7 @@ This project performs a comparative analysis of ARIMA and LightGBM models for fo
 
 ---
 
-## ** Results (Condensed)**
+## Results (Condensed)
 
 * **LightGBM Test RMSE (returns space):**
 
